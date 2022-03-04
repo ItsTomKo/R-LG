@@ -715,10 +715,12 @@ MonoBehaviour:
   counterMovementMultiplier: 0.5
   moveSpeed: 5
   sprintSpeed: 7
+  slideSpeed: 6
   maxSpeed: 10
   jumpHeight: 10
   groundCheckDistance: 0.5
   gravity: 2.5
+  gfx: {fileID: 247172183}
   con: {fileID: 1353770796}
   ground:
     serializedVersion: 2
@@ -730,6 +732,7 @@ MonoBehaviour:
   isJumping: 0
   isGrounded: 0
   isSprinting: 0
+  isSliding: 0
 --- !u!114 &1353770796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,7 +750,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   sprint: 0
-  crouch: 0
+  debug: 103
   autoPickWhenNear: 0
   pickupSpeed: 10
   pickupMaxTime: 1

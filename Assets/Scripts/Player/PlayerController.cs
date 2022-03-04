@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Controlls")]
     public KeyCode sprint;
-    public KeyCode crouch;
+    public KeyCode debug;
     [Header("Pickup")]
     public bool autoPickWhenNear;
     public float pickupSpeed;

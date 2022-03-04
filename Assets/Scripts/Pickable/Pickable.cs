@@ -74,14 +74,6 @@ public class Pickable : MonoBehaviour
         else rb = transform.GetComponent<Rigidbody>();
         rb.velocity = con.pickupSpeed * (pickupHolder.position - transform.position);
     }
-    bool canHold()
-    {
-        bool ret;
-        if (startGrab >= Time.time + con.pickupMaxTime)
-            ret = false;
-        else ret = true;
-        return ret;
-    }
     void LetGo()
     {
         Collider coll = GetComponent<Collider>();
