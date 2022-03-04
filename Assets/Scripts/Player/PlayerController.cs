@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public KeyCode crouch;
     [Header("Pickup")]
     public bool autoPickWhenNear;
+    public float pickupSpeed;
+    public float pickupMaxTime;
     public float pickDistance;
     public float pickupRadius;
     public KeyCode pickupKeybind;
